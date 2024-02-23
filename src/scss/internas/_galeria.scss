@@ -1,0 +1,8 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.galeria-interna {
+    @include m.desktop {
+        padding-top: 8rem;
+    }
+}

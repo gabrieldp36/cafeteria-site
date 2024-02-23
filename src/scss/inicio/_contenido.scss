@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contenido-principal{
+    background-color: v.$blanco;
+    padding: 5rem 2rem;
+
+    h2 {
+        margin-bottom: 2.8rem;
+    }
+
+    @include m.tablet {
+        position: relative;
+        width: 90%;
+        max-width: 120rem;
+        margin: -8rem auto 0 auto;
+        padding: 8rem 6rem;
+    }
+
+    @include m.desktop {
+        margin: -10rem auto 0 auto;
+        padding: 10rem;
+        max-width: 108rem;
+    }
+}
