@@ -1,4 +1,4 @@
-
+![portada](https://github.com/gabrieldp36/cafeteria-site/assets/88417383/2df816af-fb37-4b73-9c38-8c59ef453efe)
 
 # Tienda de Café.
 
@@ -11,5 +11,5 @@ Asimismo, el proyecto fue elaborado en forma modularizada, utilizando los benefi
 Para visitar el sitio pueden hacer click en el siguiente link:
 
 ```
-https://nucleus-ewallet-gdp.netlify.app
+tienda-cafe-gdp.netlify.app
 ```
