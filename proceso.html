@@ -35,7 +35,11 @@
             <!-- Imagen proceso 1 -->
             <div class="proceso-cafe">
                 <div class="imagen">
-                    <img src="build/assets/img/proceso_1.jpg" alt="imagen proceso 1">
+                    <picture>
+                        <source srcset="build/assets/img/proceso_1.avif" type="image/avif">
+                        <source srcset="build/assets/img/proceso_1.webp" type="image/webp">
+                        <img loading="lazy" src="build/assets/img/proceso_1.jpg" width="500" height="300" alt="imagen proceso 1">
+                    </picture>
                 </div>
                 <div class="texto">
                     <h3>Granos de Café</h3>
@@ -49,7 +53,11 @@
             <!-- Imagen proceso 2 -->
             <div class="proceso-cafe">
                 <div class="imagen">
-                    <img src="build/assets/img/proceso_2.jpg" alt="imagen proceso 2">
+                    <picture>
+                        <source srcset="build/assets/img/proceso_2.avif" type="image/avif">
+                        <source srcset="build/assets/img/proceso_2.webp" type="image/webp">
+                        <img loading="lazy" src="build/assets/img/proceso_2.jpg" width="500" height="300" alt="imagen proceso 2">
+                    </picture>
                 </div>
                 <div class="texto">
                     <h3>Tostar el Café</h3>
@@ -63,7 +71,11 @@
             <!-- Imagen proceso 3 -->
             <div class="proceso-cafe">
                 <div class="imagen">
-                    <img src="build/assets/img/proceso_3.jpg" alt="imagen proceso 3">
+                    <picture>
+                        <source srcset="build/assets/img/proceso_3.avif" type="image/avif">
+                        <source srcset="build/assets/img/proceso_3.webp" type="image/webp">
+                        <img loading="lazy" src="build/assets/img/proceso_3.jpg" width="500" height="300" alt="imagen proceso 3">
+                    </picture>
                 </div>
                 <div class="texto">
                     <h3>Empacar el Café</h3>
@@ -77,7 +89,11 @@
             <!-- Imagen proceso 4 -->
             <div class="proceso-cafe">
                 <div class="imagen">
-                    <img src="build/assets/img/proceso_4.jpg" alt="imagen proceso 4">
+                    <picture>
+                        <source srcset="build/assets/img/proceso_4.avif" type="image/avif">
+                        <source srcset="build/assets/img/proceso_4.webp" type="image/webp">
+                        <img loading="lazy" src="build/assets/img/proceso_4.jpg" width="500" height="300" alt="imagen proceso 4">
+                    </picture>
                 </div>
                 <div class="texto">
                     <h3>Moler el Café</h3>
@@ -91,7 +107,11 @@
             <!-- Imagen proceso 5 -->
             <div class="proceso-cafe">
                 <div class="imagen">
-                    <img src="build/assets/img/proceso_5.jpg" alt="imagen proceso 5">
+                    <picture>
+                        <source srcset="build/assets/img/proceso_5.avif" type="image/avif">
+                        <source srcset="build/assets/img/proceso_5.webp" type="image/webp">
+                        <img loading="lazy" src="build/assets/img/proceso_5.jpg" width="500" height="300" alt="imagen proceso 5">
+                    </picture>
                 </div>
                 <div class="texto">
                     <h3>Disfruta una Taza</h3>
@@ -127,5 +147,6 @@
             </div>
             <p class="copyright">Todos los derechos reservados <span> &copy; La Cafetería</span></p>
         </footer>
+        <script src="./src/js/imagenes.js"></script>
     </body>
 </html>

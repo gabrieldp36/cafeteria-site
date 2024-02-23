@@ -35,7 +35,11 @@
             <h2><span>Conoce más</span>sobre nosotros</h2>
             <div class="contenido-nosotros">
                 <div class="imagen">
-                    <img src="build/assets/img/nosotros_sidebar.jpg" alt="imagen nosotros">
+                    <picture>
+                        <source srcset="build/assets/img/nosotros_sidebar.avif" type="image/avif">
+                        <source srcset="build/assets/img/nosotros_sidebar.webp" type="image/webp">
+                        <img loading="lazy" src="build/assets/img/nosotros_sidebar.jpg" width="500" height="300" alt="imagen nosotros">
+                    </picture>
                 </div>
 
                 <div class="texto">
@@ -79,5 +83,6 @@
             </div>
             <p class="copyright">Todos los derechos reservados <span> &copy; La Cafetería</span></p>
         </footer>
+        <script src="./src/js/imagenes.js"></script>
     </body>
 </html>

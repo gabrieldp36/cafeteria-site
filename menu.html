@@ -46,7 +46,11 @@
                     </p>
                 </div>
                 <div class="imagen">
-                    <img src="build/assets/img/taza.jpg" alt="imagen menu">
+                    <picture>
+                        <source srcset="build/assets/img/taza.avif" type="image/avif">
+                        <source srcset="build/assets/img/taza.webp" type="image/webp">
+                        <img loading="lazy" src="build/assets/img/taza.jpg" width="500" height="300" alt="imagen menú">
+                    </picture>
                 </div>
             </div>
         </main>
@@ -148,5 +152,6 @@
             </div>
             <p class="copyright">Todos los derechos reservados <span> &copy; La Cafetería</span></p>
         </footer>
+        <script src="./src/js/imagenes.js"></script>
     </body>
 </html>
