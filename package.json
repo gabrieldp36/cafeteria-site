@@ -4,8 +4,7 @@
   "description": "Página Web Cafetería con Sass + Gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp": "gulp"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gabriel Domínguez Prado",
   "license": "ISC",
